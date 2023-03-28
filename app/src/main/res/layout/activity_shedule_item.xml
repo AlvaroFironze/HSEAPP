@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ScheduleItem">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="81dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="53dp"
+            android:layout_height="80dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="126dp" />
+
+            <TextView
+                android:id="@+id/end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="TextView"
+                android:textAlignment="center"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="166dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/layer_list" />
+
+        <LinearLayout
+            android:layout_width="352dp"
+            android:layout_height="80dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/color_4080ff"
+                android:textSize="16sp"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="126dp" />
+
+            <TextView
+                android:id="@+id/namenonavie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="146dp" />
+
+            <TextView
+                android:id="@+id/place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="165dp" />
+
+            <TextView
+                android:id="@+id/teacher1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="184dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

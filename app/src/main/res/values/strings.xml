@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Timetable for HSE FE</string>
+    <string name="tt_student">Расписание для студентов</string>
+    <string name="tt_teacher">Расписание для преподавателя</string>
+    <string name="title_activity_teacher">activity_teacher</string>
+    <string name="choose_teacher">Выберите преподавателя:</string>
+    <string name="choose_group">Выберите группу:</string>
+    <string name="time">Сейчас: </string>
+    <string name="status">Идёт пара / Нет пар </string>
+    <string name="subject">Дисциплина </string>
+    <string name="cabinet">Кабинет </string>
+    <string name="corp">Корпус </string>
+    <string name="teacher">Преподаватель </string>
+    <string name="timetable_day"><![CDATA[Расписание
+на день]]></string>
+    <string name="timetable_week"><![CDATA[Расписание
+на неделю]]></string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
